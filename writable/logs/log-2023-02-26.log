@@ -1,0 +1,70 @@
+CRITICAL - 2023-02-26 04:18:00 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-26 04:20:42 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-26 13:36:01 --> Undefined variable $judul
+in APPPATH\Views\templates\v_header.php on line 12.
+ 1 APPPATH\Views\templates\v_header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\templates\\v_header.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\v_header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/v_header', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('templates/v_header')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 14:57:17 --> Undefined variable $kaos
+in APPPATH\Views\Kaos\index.php on line 7.
+ 1 APPPATH\Views\Kaos\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kaos', 'APPPATH\\Views\\Kaos\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Kaos\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kaos/index', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('kaos/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-02-26 16:14:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kaos::$model is deprecated in APPPATH\Controllers\Kaos.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Kaos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-02-26 16:15:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kaos::$model is deprecated in APPPATH\Controllers\Kaos.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Kaos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-02-26 16:15:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kaos::$model is deprecated in APPPATH\Controllers\Kaos.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Kaos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-02-26 16:19:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kaos::$model is deprecated in APPPATH\Controllers\Kaos.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Kaos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-02-26 16:21:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kaos::$model is deprecated in APPPATH\Controllers\Kaos.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Kaos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-02-26 16:27:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kaos::$model is deprecated in APPPATH\Controllers\Kaos.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Kaos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

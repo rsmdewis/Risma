@@ -1,0 +1,5 @@
+WARNING - 2023-05-07 02:30:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kaos::$model is deprecated in APPPATH\Controllers\Kaos.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Kaos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
